@@ -24,7 +24,7 @@ hr {
 /* navbar */
 .navbar {
   background-color: #0c0c0c;
-  padding: 20px 49px;
+  padding: 20px 30px;
 }
 .navbar-brand {
   color: white;
@@ -105,7 +105,7 @@ hr {
 
 .feature-col {
   text-align: center;
-  padding: 5px;
+  padding: 50px 5px ;
 }
 .feature-par {
   margin: 5px 50px;
