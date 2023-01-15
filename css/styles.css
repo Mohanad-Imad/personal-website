@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+span {
+  padding: 2px;
+}
+hr {
+  margin: 0;
+}
+/* navbar */
+.navbar {
+  background-color: #0c0c0c;
+  padding: 20px 49px;
+}
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+.nav-link {
+  color: white;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+.nav-link:hover {
+  color: #9e005d;
+  transform: scale(1.1);
+}
+/* ////////////////// head section /////////////////////// */
+.head-section {
+  background-color: #0c0c0c;
+}
+.profile-img {
+  display: block;
+  margin: auto;
+}
+.profile-text {
+  display: block;
+  margin: auto;
+}
+.name {
+  margin-top: 100px;
+  font-family: "Sacramento", cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #9e005d;
+}
+.des-text {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 20px 0 50px;
+}
+.lets-talk {
+  background-color: #9e005d;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.lets-talk:hover {
+  background-color: #c05895;
+  transform: scale(1.1);
+}
+
+.social-icon {
+  transition: all 0.2s ease-in-out;
+  margin: 40px 30px 10px 0;
+  color: #9e005d;
+  font-size: 3rem;
+}
+.social-icon:hover {
+  transform: scale(1.1);
+  color: #c05895;
+}
+.social-div a {
+  color: transparent;
+}
+/* features section */
+.features-section {
+  padding: 0px 55px 100px;
+}
+.feature-icon {
+  color: #9e005d;
+  font-size: 8rem;
+  width: 100%;
+  text-align: center;
+  margin: 80px 0 25px;
+}
+
+.feature-col {
+  text-align: center;
+  padding: 5px;
+}
+.feature-par {
+  margin: 5px 50px;
+  color: darkgray;
+  font-size: 1.1rem;
+  text-align: justify;
+  font-weight: lighter;
+}
+.feature-h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 20px 50px;
+  color: #0c0c0c;
+}
+/* weapons section */
+.weapon {
+  background-color: #0c0c0c;
+  text-align: center;
+  padding: 30px;
+}
+.weapon-col {
+  padding: 0 20px;
+}
+.weapons-img {
+  height: 60px;
+  margin: 10px;
+}
+
+.weapon-head {
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+.weapons-head {
+  padding: 30px;
+}
+/* footer section */
+.footer-contact {
+  text-align: center;
+  background-color: #0c0c0c;
+}
+.footer-contact a{
+  color: transparent;
+}
+.footer-icon{
+  font-size: 2rem;
+  color: grey;
+  margin: 30px 15px 0 15px ;
+}
+.footer-icon:hover{
+  color: white;
+}
+.foot {
+  background-color: #0c0c0c;
+  text-align: center;
+  padding: 15px;
+}
+.footer-para {
+  font-weight: lighter;
+  font-size: small;
+  margin: 5px;
+}
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 991px) {
+  .head-section {
+    background-color: #0c0c0c;
+    text-align: center;
+  }
+  .profile-img {
+    display: block;
+    margin: auto;
+
+    width: 60%;
+    height: auto;
+  }
+  .profile-text {
+    display: block;
+    margin: auto;
+    padding: 2.5rem 2rem;
+  }
+  .name {
+    font-family: "Sacramento", cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #9e005d;
+    margin-top: 20px;
+  }
+  .des-text {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  .social-icon {
+    margin: 50px 20px 10px 20px;
+  }
+  .features-section {
+    padding: 0 10px;
+  }
+  .weapon-col {
+    padding: 0;
+  }
+  .weapons-img {
+    height: 35px;
+    margin: 5px;
+  }
+}
+@media only screen and (width: 1024px) {
+  .weapon-col {
+    padding: 0px;
+  }
+  .weapons-img {
+    height: 45px;
+    margin: 5px;
+  }
+}
